@@ -10,3 +10,21 @@ int main()
     }
     return 0;
 }
+
+another method
+
+#include<stdio.h>
+int main()
+{
+    int T,ara[5],i,sum,average;
+    scanf("%d",&T);
+    while(T--){
+        for(i=0,sum=0;i<5;i++){
+            scanf("%d",&ara[i]);
+            sum+=ara[i];
+        }
+        average=sum/5;
+        printf("%d\n",average);
+    }
+    return 0;
+}
