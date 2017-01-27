@@ -1,2 +1,3 @@
-# programming
-My beginning programming in C
+Neyoman Nasir.
+Dept of Applied Mathematics.
+NSTU
