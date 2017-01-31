@@ -33,3 +33,38 @@ int main()
     }
     return 0;
 }
+
+//with bubble sorting....
+/*#include<stdio.h>
+
+void bubble_sort(int ara[],int n)
+{
+    int i,j,k,temp;
+    for(i=1;i<n;i++){
+        for(j=0;j<n-1;j++){
+            if(ara[j]>ara[j+1]){
+                temp=ara[j];
+                ara[j]=ara[j+1];
+                ara[j+1]=temp;
+            }
+        }
+    }
+    for(k=0;k<n;k++){
+            printf("%d ",ara[k]);
+        }
+}
+int main()
+{
+    int T,i,j,ara[3];
+    scanf("%d",&T);
+    for(j=1;j<=T;j++){
+        for(i=0;i<3;i++){
+            scanf("%d",&ara[i]);
+        }
+        printf("Case %d: ");
+        bubble_sort(ara,3);
+        printf("\n");
+    }
+    return 0;
+}
+*/
