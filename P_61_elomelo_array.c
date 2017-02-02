@@ -51,3 +51,49 @@ int main()
     }
     return 0;
 }
+
+//another process
+/*#include<stdio.h>
+int main()
+{
+    int T,i,N,sorted;
+    int ara[100];
+    scanf("%d",&T);
+    while(T--){
+        scanf("%d",&N);
+        for(i=0;i<N;i++){
+            scanf("%d",&ara[i]);
+        }
+        
+        sorted=1;
+        for(i=1;i<N;i++){
+            if(ara[i]<ara[i-1]){
+                sorted=0;
+                break;
+            }
+        }
+        
+        if(sorted==1){
+            printf("YES\n");
+        }
+        else{
+            sorted=1;
+            for(i=0;i<N-1;i++){
+                if(ara[i]>ara[i+1]){
+                    sorted=1;
+                }
+                else{
+                    sorted=0;
+                    break;
+                }
+            }
+            if(sorted==1){
+                printf("YES\n");
+            }
+            else{
+                printf("NO\n");
+            }
+        }
+    }
+    return 0;
+}*/
