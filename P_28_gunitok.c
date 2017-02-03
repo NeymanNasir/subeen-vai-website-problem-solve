@@ -14,3 +14,23 @@ int main()
     }
     return 0;
 }
+//another efficient code
+/*#include<stdio.h>
+int main()
+{
+    int T,X,N,i;
+    scanf("%d",&T);
+    while(T--){
+        scanf("%d %d",&X,&N);
+        if(X>N){
+            printf("Invalid\n");
+        }
+        else{
+            for(i=X;i<=N;i+=X){
+                printf("%d\n",i);
+            }
+        }
+    }
+    return 0;
+}
+*/
