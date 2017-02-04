@@ -5,11 +5,17 @@ int main()
     scanf("%d",&T);
     while(T--){
         scanf("%d",&n);
-        for(i=n;i>=2;i--){
-            printf("2^%d + ",i);
+        for(i=n;i>=0;i--){
+            if(i==0){
+                printf("1\n");
+                }
+                else if(i==1){
+                printf("2 + ");
+                }
+                else{
+                printf("2^%d + ",i);
+            }
         }
-        printf("2 + 1");
-        printf("\n");
     }
     return 0;
 }
