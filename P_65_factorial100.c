@@ -35,3 +35,47 @@ int main()
     }
     return 0;
 }
+
+
+/*#include<stdio.h>
+int main()
+{
+    int T,two,five,M,N,I,J;
+    scanf("%d",&T);
+    while(T--){
+        scanf("%d",&N);
+        M=N;
+        I=N;
+        two=0;
+        five=0;
+        while(I>1){
+                N=I;
+            if(N%2==0){
+                while(N%2==0){
+                    two++;
+                    N=N/2;
+                }
+            }
+            I--;
+        }
+        J=M;
+        while(J>1){
+                M=J;
+            if(M%5==0){
+                while(M%5==0){
+                    five++;
+                    M=M/5;
+                }
+            }
+            J--;
+        }
+        if(two>five){
+            printf("%d\n",five);
+        }
+        else{
+            printf("%d\n",two);
+        }
+    }
+    return 0;
+}
+*/ 
