@@ -11,6 +11,7 @@ int main()
         n=n/2;
         i++;
     }
+    str[i]='\0';
     len=strlen(str);
     for(j=len-1,count=0;j>=0;j--){
         printf("%c",str[j]);//print decimal to binary num
