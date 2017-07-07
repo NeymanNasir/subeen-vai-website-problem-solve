@@ -14,14 +14,3 @@
 	যায়। এভাবে int type এর জন্য 4 byte=32 bit=2^32=4,294,967,296=-2,147,483,648 to  2,147,483,648 data  রাখা যায়।
 	
 	7. কম্পিউটারের মেমোরির ক্ষুদ্রতম একক বাইট।
-
-	8. কোন int num কে string এ convert করার জন্য itoa() function use করা হয়।
-
-	9. কোন string কে int num এ convert করার জন্য atoi() function use করা হয়।
-
-	10. কোন string কে long int এ convert করার জন্য strtol() function use করা হয়।
-
-	11. কোন string থেকে যে কোন ক্যারেক্টার বাদ দিয়ে আলাদা আলাদা string গুলো print করার জন্য 
-	strtok() function use করা হয়।
-
-
